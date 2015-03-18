@@ -16,12 +16,13 @@ module Modules =
             stream.Position <- 0L
             content
 
-        member this.Dispatch cmd status =
+        member this.Dispatch status cmd =
             dispatch cmd
             status :> obj
 
-        member this.Ok cmd = this.Dispatch cmd 200
-        member this.Create cmd = this.Dispatch cmd 201
+        member this.Ok = this.Dispatch 200
+        member this.Create = this.Dispatch 201
+        member this.NoContent = this.Dispatch 204
 
 
 module Host = 
