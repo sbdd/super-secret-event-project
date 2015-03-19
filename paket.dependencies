@@ -1,0 +1,5 @@
+source https://nuget.org/api/v2
+
+nuget nancy
+nuget nancy.hosting.self
+nuget FSharp.Data

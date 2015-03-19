@@ -1,0 +1,12 @@
+DesignTimeURIs
+FreebaseSchema
+WorldBankSchema
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+.OpenIDE/active.profile
+oi-definitions.json
+packages/
+bin
+obj
