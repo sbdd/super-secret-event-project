@@ -10,3 +10,4 @@ oi-definitions.json
 packages/
 bin
 obj
+node_modules
