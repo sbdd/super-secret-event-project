@@ -11,3 +11,4 @@ packages/
 bin
 obj
 node_modules
+.DS_STORE

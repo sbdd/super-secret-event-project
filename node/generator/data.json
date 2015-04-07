@@ -1,0 +1,82 @@
+{
+  "module": "Core",
+  "desc": "core module",
+  "commands": [
+    {
+      "name": "SuperDupperCommand",
+      "desc": "import some shit",
+      "def": {
+        "Name": {
+          "type": "string",
+          "default": "lala",
+          "nullable": true
+        },
+        "Type": {
+          "type": "IwillWin",
+          "default": "lala",
+          "nullable": true
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "SomeThingAddedToMySiteEvent",
+      "desc": "import some shit",
+      "def": {
+        "Name": {
+          "type": "string",
+          "default": "lala"
+        },
+        "Type": {
+          "type": "integer",
+          "default": "lala"
+        }
+      }
+    }
+  ],
+  "valueObjects": [
+    {
+      "name": "IwillWin",
+      "desc": "import some shit",
+      "def": {
+        "Name": {
+          "type": "string",
+          "default": "lala",
+          "nullable": true
+        },
+        "Type": {
+          "type": "integer",
+          "default": "lala",
+          "nullable": true
+        },
+        "Events": {
+          "type": "list string",
+          "default": "lala",
+          "nullable": true
+        }
+      }
+    },
+    {
+      "name": "SomethingElse",
+      "desc": "import some shit",
+      "def": {
+        "Name": {
+          "type": "string",
+          "default": "lala",
+          "nullable": true
+        },
+        "Type": {
+          "type": "integer",
+          "default": "lala",
+          "nullable": true
+        },
+        "Events": {
+          "type": "list IwillWin",
+          "default": "lala",
+          "nullable": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "type-generator",
+  "version": "0.0.0-unreleasable",
+  "dependencies": {
+    "change-case": "^2.3.0",
+    "esprima": "^2.1.0",
+    "moment": "^2.9.0",
+    "underscore": "^1.7.0",
+    "yargs": "^2.3.0"
+  }
+}
